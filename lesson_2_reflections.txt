@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+A folder called .git is added to the directory. This contains metadata about
+the other content in the directory. No intial commit is made
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+It is an intermediary between the working directory and the repository. It allows
+the programmer to commit several files, although not necessarily all the files in the
+working directory to the repository in one commit
